@@ -1,0 +1,134 @@
+@media (max-width:992px) {
+    .header {
+        .navbar-collapse {
+            background-color: #181820;
+
+            .navbar-nav {
+                padding: 20px;
+
+                li.nav-item {
+                    >a.nav-link {
+                        text-align: center !important;
+                        padding: 8px 0 !important;
+                        font-size: 20px !important;
+
+                        &::before {
+                            display: none !important;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .pageTitle {
+        .pageTitleContent {
+            padding-top: 85px;
+            height: 300px;
+
+            p {
+                font-size: calc(var(--fontInitSize) + 0px);
+            }
+        }
+    }
+
+    .sectionPadding {
+        padding: 50px 0;
+    }
+
+    #scrollToSeeMore {
+        display: none !important;
+    }
+
+    .banner .bannerPanel #svgImgFigure .bannerMainContent {
+        padding-top: 85px;
+
+        h2 {
+            font-size: calc(4vw + 32px);
+            line-height: calc(100% + 7px) !important;
+        }
+    }
+
+    .secTitle {
+        font-size: calc(var(--fontInitSize) + 20px);
+        margin-bottom: 30px;
+        overflow: hidden;
+
+        &::after {
+            font-size: calc(var(--fontInitSize) + 100px);
+        }
+    }
+
+    .aboutUs-section {
+        &.aboutHome {
+            padding-top: 70px;
+
+            .innovation-content {
+                padding: 50px 30px;
+
+                ul {
+                    li {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+
+        &.whoWeAre,
+        &.whatWeDo {
+            padding: 50px 0;
+        }
+
+        &.whatWeDo {
+            .secTitle-wrp .secTitle {
+                text-align: left;
+            }
+
+            .innovation-content {
+                padding: 50px 30px;
+            }
+
+            .vision-mission {
+                display: block;
+
+                .info-wrp {
+                    width: 100%;
+                    margin-bottom: 30px;
+                }
+            }
+        }
+    }
+
+    .servicesSec,
+    .followUsSec,
+    .ClientSection {
+        padding: 60px 0 60px;
+    }
+
+    .ClientSection {
+        .sliderWrp {
+            margin-top: 50px;
+        }
+    }
+
+    .footer {
+        .footerTopContent {
+            padding-top: 50px;
+
+            .topTitle {
+                font-size: calc(var(--fontInitSize) + 16px);
+            }
+        }
+
+        .footerBottom .policy ul {
+            margin-top: 10px;
+            justify-content: flex-start;
+        }
+    }
+
+    .getInTouch ul li .touchableContent {
+        .touchableContentHeadLine {
+            font-size: 17px;
+        }
+    }
+}

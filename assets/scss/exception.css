@@ -1,0 +1,306 @@
+/* helper classes */
+.sectionPadding {
+  padding: 140px 0; }
+
+/* helper classes - END */
+/* css for pageTitle */
+.pageTitle {
+  background: var(--mainBlackBgColor) url(../img/pageTitleBg.png) no-repeat center; }
+  .pageTitle .pageTitleContent {
+    height: 546px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center; }
+    .pageTitle .pageTitleContent h2 {
+      font-size: calc(3vw + 30px);
+      color: #ffffff;
+      font-weight: 700; }
+    .pageTitle .pageTitleContent p {
+      font-size: calc(var(--fontInitSize) + 10px);
+      color: #C1C1C1; }
+
+/* css for pageTitle - END */
+/* css for services */
+.services {
+  background-color: #0D0D0D; }
+  .services .serviceItem {
+    padding: 20px;
+    background-color: var(--mainSecondaryBgColor);
+    color: #ffffff;
+    margin-bottom: 30px; }
+    .services .serviceItem .serviceTag {
+      color: var(--mainColor);
+      font-size: calc(var(--fontInitSize) - 4px);
+      font-weight: 500; }
+    .services .serviceItem .serviceTitle {
+      font-size: calc(var(--fontInitSize) + 13px);
+      line-height: calc(100% + 10px); }
+    .services .serviceItem .serviceSubTitle {
+      margin: 35px 0;
+      font-size: calc(var(--fontInitSize) + 0px);
+      line-height: calc(100% + 10px);
+      color: #C1C1C1;
+      font-weight: 400; }
+  .services .readMore {
+    font-size: 16px;
+    display: inline-flex;
+    align-items: center; }
+
+.goToYourVision {
+  text-align: center;
+  color: #ffffff;
+  position: relative; }
+  .goToYourVision > img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    object-position: center; }
+  .goToYourVision .goToYourVisionOverlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px; }
+    .goToYourVision .goToYourVisionOverlay h3 {
+      font-size: calc(var(--fontInitSize) + 10px);
+      line-height: calc(100% + 10px);
+      font-weight: 600;
+      margin-bottom: 25px; }
+
+/* css for services - END */
+/* css for contact */
+.contact {
+  background-color: #000000;
+  padding-bottom: 100px; }
+  .contact .contactForm .form-group {
+    margin-bottom: 30px; }
+    .contact .contactForm .form-group .form-control {
+      height: 65px;
+      border: 0;
+      box-shadow: none;
+      outline: none;
+      border-radius: 0;
+      background-color: #161616;
+      padding-left: 30px;
+      font-size: 18px;
+      color: #C1C1C1; }
+      .contact .contactForm .form-group .form-control.textarea {
+        height: auto; }
+  .contact .contactForm .btn-submit {
+    padding: 12px 40px;
+    border-radius: 0;
+    background-color: #9E6D5B;
+    border: 0;
+    font-size: 18px;
+    transition: all .3s; }
+    .contact .contactForm .btn-submit:hover {
+      background-color: var(--mainColor); }
+  .contact ::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    color: #C1C1C1; }
+  .contact ::-moz-placeholder {
+    /* Firefox 19+ */
+    color: #C1C1C1; }
+  .contact :-ms-input-placeholder {
+    /* IE 10+ */
+    color: #C1C1C1; }
+  .contact :-moz-placeholder {
+    /* Firefox 18- */
+    color: #C1C1C1; }
+
+.getInTouch ul li {
+  margin-bottom: 35px; }
+  .getInTouch ul li .icon {
+    width: 50px;
+    height: 50px;
+    background-color: #42302A;
+    color: #ffffff;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%; }
+  .getInTouch ul li .touchableContent {
+    color: #ffffff; }
+    .getInTouch ul li .touchableContent p {
+      color: var(--mainColor); }
+    .getInTouch ul li .touchableContent .touchableContentHeadLine {
+      color: #C1C1C1;
+      font-size: 24px;
+      line-height: calc(100% + 10px);
+      transition: all .3s; }
+      .getInTouch ul li .touchableContent .touchableContentHeadLine:hover {
+        color: var(--mainColor);
+        text-decoration: none; }
+
+/* css for contact - END */
+/* css for bannerPanel */
+@keyframes dash {
+  0%,
+    100% {
+    stroke-dashoffset: 1000;
+    fill: #9a7763; }
+  20% {
+    stroke-dashoffset: 300;
+    fill: #1BCBC0;
+    stroke: #1BCBC0; }
+  40% {
+    stroke-dashoffset: 700;
+    fill: #E94B7A;
+    stroke: #E94B7A; }
+  60% {
+    stroke-dashoffset: 700;
+    fill: #BCAE55;
+    stroke: #BCAE55; }
+  80% {
+    stroke-dashoffset: 700;
+    fill: #DA4FBB;
+    stroke: #DA4FBB; } }
+@keyframes changeFill {
+  0%,
+    100% {
+    fill: #9a7763; }
+  20% {
+    fill: #1BCBC0; }
+  40% {
+    fill: #E94B7A; }
+  60% {
+    fill: #BCAE55; }
+  80% {
+    fill: #DA4FBB; } }
+@keyframes iAmFadeInOut {
+  0%,
+    100% {
+    opacity: 0; }
+  50% {
+    opacity: 1; } }
+#cursor {
+  width: 50px;
+  height: 50px;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  user-select: none;
+  z-index: 0;
+  transition: all .1s; }
+  #cursor.hoveredByHoverEvent {
+    width: 80px;
+    height: 80px; }
+    #cursor.hoveredByHoverEvent::after {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%; }
+  #cursor::after {
+    content: '';
+    display: block;
+    width: 4px;
+    height: 4px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    transition: all .3s; }
+  #cursor .circle {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: var(--mainColor);
+    z-index: -1;
+    border-radius: 50%;
+    transform: scale(0); }
+
+.banner {
+  background-color: #000000; }
+  .banner .bannerPanel {
+    position: relative; }
+    .banner .bannerPanel #scrollToSeeMore {
+      position: absolute;
+      transform: rotate(-90deg);
+      display: inline-block;
+      color: #c1c1c1;
+      bottom: 170px;
+      left: 20px;
+      z-index: 100;
+      text-decoration: none; }
+    .banner .bannerPanel #svgImgFigure {
+      text-align: center;
+      position: relative; }
+      .banner .bannerPanel #svgImgFigure .bannerMainContent {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        left: 0;
+        right: 0;
+        top: 0;
+        color: #ffffff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center; }
+        .banner .bannerPanel #svgImgFigure .bannerMainContent h2 {
+          font-size: calc(4vw + 40px);
+          font-weight: 800;
+          line-height: calc(100% + 35px);
+          font-family: "Proxima Nova Th"; }
+        .banner .bannerPanel #svgImgFigure .bannerMainContent p {
+          font-size: 24px;
+          letter-spacing: 10px; }
+      .banner .bannerPanel #svgImgFigure #homeSvg {
+        max-width: 1200px;
+        width: 100%;
+        margin: auto;
+        height: calc(34vw + 300px);
+        display: inline-block;
+        margin-right: 300px; }
+        .banner .bannerPanel #svgImgFigure #homeSvg path {
+          fill: #9a7763;
+          animation: changeFill 4s linear alternate infinite; }
+          .banner .bannerPanel #svgImgFigure #homeSvg path.ballPath {
+            stroke: #9a7763;
+            stroke-width: 1px;
+            stroke-dasharray: 1000;
+            stroke-dashoffset: 1000;
+            animation: dash 4s linear alternate infinite; }
+
+/* css for bannerPanel - END */
+/* css for footer  */
+.footer {
+  background-color: #000000; }
+  .footer .footerTopContent {
+    padding-top: 150px; }
+    .footer .footerTopContent .topTitle {
+      color: #ffffff;
+      font-size: calc(var(--fontInitSize) + 28px); }
+    .footer .footerTopContent p {
+      font-size: calc(var(--fontInitSize) + 2px);
+      color: #c1c1c1; }
+
+.footerBottom {
+  border-top: 1px solid rgba(255, 255, 255, 0.4); }
+  .footerBottom .CopyrightText {
+    font-size: 16px;
+    color: #C1C1C1; }
+  .footerBottom .policy ul {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; }
+    .footerBottom .policy ul li > a {
+      font-size: 16px;
+      color: #C1C1C1; }
+      .footerBottom .policy ul li > a:hover {
+        color: var(--mainColor);
+        text-decoration: none; }
+
+/* css for footer - END */
+
+/*# sourceMappingURL=exception.css.map */

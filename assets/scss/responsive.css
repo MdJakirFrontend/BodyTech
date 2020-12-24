@@ -1,0 +1,75 @@
+@media (max-width: 992px) {
+  .header .navbar-collapse {
+    background-color: #181820; }
+    .header .navbar-collapse .navbar-nav {
+      padding: 20px; }
+      .header .navbar-collapse .navbar-nav li.nav-item > a.nav-link {
+        text-align: center !important;
+        padding: 8px 0 !important;
+        font-size: 20px !important; }
+        .header .navbar-collapse .navbar-nav li.nav-item > a.nav-link::before {
+          display: none !important; }
+
+  .pageTitle .pageTitleContent {
+    padding-top: 85px;
+    height: 300px; }
+    .pageTitle .pageTitleContent p {
+      font-size: calc(var(--fontInitSize) + 0px); }
+
+  .sectionPadding {
+    padding: 50px 0; }
+
+  #scrollToSeeMore {
+    display: none !important; }
+
+  .banner .bannerPanel #svgImgFigure .bannerMainContent {
+    padding-top: 85px; }
+    .banner .bannerPanel #svgImgFigure .bannerMainContent h2 {
+      font-size: calc(4vw + 32px);
+      line-height: calc(100% + 7px) !important; }
+
+  .secTitle {
+    font-size: calc(var(--fontInitSize) + 20px);
+    margin-bottom: 30px;
+    overflow: hidden; }
+    .secTitle::after {
+      font-size: calc(var(--fontInitSize) + 100px); }
+
+  .aboutUs-section.aboutHome {
+    padding-top: 70px; }
+    .aboutUs-section.aboutHome .innovation-content {
+      padding: 50px 30px; }
+      .aboutUs-section.aboutHome .innovation-content ul li {
+        width: 100%; }
+  .aboutUs-section.whoWeAre, .aboutUs-section.whatWeDo {
+    padding: 50px 0; }
+  .aboutUs-section.whatWeDo .secTitle-wrp .secTitle {
+    text-align: left; }
+  .aboutUs-section.whatWeDo .innovation-content {
+    padding: 50px 30px; }
+  .aboutUs-section.whatWeDo .vision-mission {
+    display: block; }
+    .aboutUs-section.whatWeDo .vision-mission .info-wrp {
+      width: 100%;
+      margin-bottom: 30px; }
+
+  .servicesSec,
+  .followUsSec,
+  .ClientSection {
+    padding: 60px 0 60px; }
+
+  .ClientSection .sliderWrp {
+    margin-top: 50px; }
+
+  .footer .footerTopContent {
+    padding-top: 50px; }
+    .footer .footerTopContent .topTitle {
+      font-size: calc(var(--fontInitSize) + 16px); }
+  .footer .footerBottom .policy ul {
+    margin-top: 10px;
+    justify-content: flex-start; }
+
+  .getInTouch ul li .touchableContent .touchableContentHeadLine {
+    font-size: 17px; } }
+
+/*# sourceMappingURL=responsive.css.map */
